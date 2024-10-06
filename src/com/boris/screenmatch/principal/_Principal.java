@@ -100,7 +100,7 @@ public class _Principal {
             
             try{
             MonedaOmdb moneda = consulta.buscarMoneda(monedaBase, monedaConvertir, monto);
-            System.out.println("********************************************************************************");
+            System.out.println("*******************************************************************************");
             System.out.println("Vas a convertir con el valor de mercado de: " + moneda.conversion_rate());
             System.out.println("El valor de " + monto + " " + monedaBase + " equivale a " + moneda.conversion_result() + " " + monedaConvertir);
             
